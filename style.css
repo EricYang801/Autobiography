@@ -1,0 +1,104 @@
+.navbar {
+    background-color: #444444;
+    left: 0;
+    top: 0;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20%;
+}
+
+.title {
+    color: aliceblue;
+    font-size: 40px;
+    font-family: Arial;
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.list {
+    font-family: Arial;
+    float: right;
+}
+
+.list li {
+
+    position: relative;
+    display: inline-block;
+    margin-right: 30px;
+    top: 15px;
+}
+
+.list a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+@keyframes fade_In {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.content {
+    animation: fade_In 2s forwards;
+    font-family: Arial;
+    margin-top: 90px;
+    margin-left: 40px;
+
+}
+
+.personal_picture {
+    opacity: 0;
+    animation: fade_In 2s forwards;
+    width: 550px;
+    height: auto;
+    float: left;
+    margin-top: 60px;
+
+}
+
+.info {
+    opacity: 0;
+    animation: fade_In 2s forwards;
+    animation-delay: 0.5s;
+
+    width: 900px;
+    padding-left: 50px;
+    padding-top: 30px;
+    text-align: left;
+    font-size: 20px;
+    word-wrap: break-word;
+    display: inline-block;
+
+}
+
+
+
+.info2 {
+    opacity: 0;
+    animation: fade_In 2s forwards;
+    animation-delay: 1s;
+    width: 450px;
+    display: inline-block;
+}
+
+.info2_habit {
+    opacity: 0;
+    animation: fade_In 2s forwards;
+    animation-delay: 1.5s;
+    width: 450px;
+    float: right;
+}
