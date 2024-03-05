@@ -106,3 +106,17 @@
     width: 450px;
     float: right;
 }
+
+.Certification_Contect {
+
+    margin-top: 100px;
+    margin-left: 40px;
+    animation: fade_In 2s forwards;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.Certification_Contect img {
+    max-width: 100%;
+}
