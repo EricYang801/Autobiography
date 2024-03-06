@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
 .navbar {
     background-color: #444444;
     left: 0;
@@ -5,7 +11,6 @@
     position: relative;
     width: 100%;
     height: 100px;
-    position: absolute;
 }
 
 .container {
@@ -30,7 +35,6 @@
 }
 
 .list li {
-
     position: relative;
     display: inline-block;
     margin-right: 30px;
@@ -52,16 +56,14 @@
     to {
         opacity: 1;
         transform: translateY(0);
-
     }
 }
 
 .content {
     animation: fade_In 2s forwards;
     font-family: Arial;
-    margin-top: 90px;
-    margin-left: 40px;
 
+    margin-left: 40px;
 }
 
 .personal_picture {
@@ -71,14 +73,12 @@
     height: auto;
     float: left;
     margin-top: 60px;
-
 }
 
 .info {
     opacity: 0;
     animation: fade_In 2s forwards;
     animation-delay: 0.5s;
-
     width: 900px;
     padding-left: 50px;
     padding-top: 30px;
@@ -86,10 +86,7 @@
     font-size: 20px;
     word-wrap: break-word;
     display: inline-block;
-
 }
-
-
 
 .info2 {
     opacity: 0;
@@ -108,7 +105,6 @@
 }
 
 .Certification_Contect {
-
     margin-top: 100px;
     margin-left: 40px;
     animation: fade_In 2s forwards;
@@ -119,4 +115,23 @@
 
 .Certification_Contect img {
     max-width: 100%;
+}
+
+.Project_Contect {
+    animation: fade_In 2s forwards;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    position: relative;
+}
+
+.content1 {
+    background-color: #ffffff;
+    padding: 20px;
+
+}
+
+.content2 {
+    background-color: #a09e9e;
+    padding: 20px;
 }
